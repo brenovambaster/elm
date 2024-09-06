@@ -2,14 +2,15 @@ module FiltraMenores exposing (..)
 import Html exposing (text)
 
 -- Função recursiva para filtrar os elementos menores que `n` de uma lista
-findSmallerThan : Int -> List Int -> List Int
+-- recebe um inteiro e uma lista de inteiros e retorna uma lista de inteiros
+findSmallerThan : Int -> List Int -> List Int 
 findSmallerThan n list =
     case list of
        
         [] ->
             []
 
-        -- Caso recursivo: Desconstruímos a lista em cabeça (primeiro elemento) e cauda (restante da lista)
+        -- Caso recursivo: Desconstruímos a lista em HEAD (primeiro elemento) e cauda (restante da lista)
         x :: xs ->
            
             if x < n then
