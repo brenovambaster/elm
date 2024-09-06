@@ -12,8 +12,8 @@ To run this application, you need to have Elm installed on your machine. You can
 
 1. **Clone the repository:**
    ```sh
-   git clone <https://github.com/brenovambaster/elm.git>
-   cd <elm>
+   git clone https://github.com/brenovambaster/elm.git
+   cd elm
 
 # Functional Programming with Elm
 Elm is a functional programming language that compiles to JavaScript. It is designed for building reliable web applications with a focus on simplicity and quality tooling. Here are some key concepts of functional programming in Elm:
